@@ -5,28 +5,29 @@
 
 body {
     margin: 0;
+    background: url('../background.jpg') no-repeat center center fixed;
+    background-size: cover;
+   
 }
 
 .app {
-    background-color: #000;
     color: #fff;
-    font-family: blocky;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 30px;
     padding: 50px;
     text-align: center;
 }
 
 .app .logo {
-    height: 200px;
+    height: 400px;
 }
 
 .app h1 {
-    text-shadow: 0 0 28px #61DAFB;
     letter-spacing: 5px;
 }
 
 .rotate {
-    animation: spin 10s linear infinite;
+    animation: spin 3s linear infinite;
 }
 
 @keyframes spin {
