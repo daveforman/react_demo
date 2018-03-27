@@ -1,14 +1,15 @@
 import React from 'react';
 import '../assets/css/app.css';
 import logo from '../assets/images/logo.svg';
+import './app.css'
+import Scrapbook from "./scrapbook";
 
-const App = () => (
-    <div>
-        <div className="app">
-            <img src={logo} className="logo rotate"/>
-            <h1>Welcome to React</h1>
-        </div>
-    </div>
-);
-
-export default App;
+export default () => {
+    return (
+         <div className="main-container">
+            <h1 className="main-title">Drifting Scrapbook</h1>
+            <Scrapbook/>
+         </div>
+    
+    )
+}
