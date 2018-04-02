@@ -1,12 +1,11 @@
 import React from 'react';
 import '../assets/css/app.css';
-import logo from '../assets/images/logo.svg';
+import Home from './index/home';
+import Contact from './contact/contact';
 
 const App = () => (
     <div>
-        <div className="app">
-            <img src={logo} className="logo rotate"/>
-            <h1>Welcome to React</h1>
+        <div className="body">
         </div>
     </div>
 );
